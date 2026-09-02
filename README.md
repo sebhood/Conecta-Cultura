@@ -13,5 +13,6 @@ Abrir `index.html` en el navegador o utilizar Live Server.
 - Navegación con rutas relativas y `aria-current` en la página activa.
 
 ## Imágenes
-- `assets/img/fotografia.jpg`, `assets/img/huerto.jpg`, `assets/img/programacion.jpg`
-  pendientes de agregar (autor y fuente por completar).
+- `assets/img/fotografia.jpg` — fotografía de banco de imágenes (fotógrafo con cámara Canon).
+- `assets/img/huerto.jpg` — fotografía de banco de imágenes (cosecha en huerto comunitario).
+- `assets/img/programacion.jpg` — fotografía de banco de imágenes (código en pantalla).
