@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recursos multimedia de Conecta Cultura">
+  <title>Recursos | Conecta Cultura</title>
+  <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+  <a class="salto-contenido" href="#contenido-principal">Ir al contenido</a>
+  <header class="cabecera-sitio">
+    <a class="marca" href="index.html">Conecta Cultura</a>
+    <nav aria-label="Navegación principal">
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        <li><a href="agenda.html">Agenda</a></li>
+        <li><a href="participar.html">Participar</a></li>
+        <li><a href="recursos.html" aria-current="page">Recursos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido-principal">
+    <header class="encabezado-pagina">
+      <p class="etiqueta">Conoce el proyecto</p>
+      <h1>Recursos multimedia</h1>
+      <p>Un video breve que presenta a Conecta Cultura y su propuesta comunitaria.</p>
+    </header>
+
+    <section aria-labelledby="titulo-video">
+      <h2 id="titulo-video">Presentación en video</h2>
+      <!--
+        Video pendiente: agrega el archivo en assets/media/presentacion.mp4
+        (y opcionalmente assets/media/presentacion-es.vtt para subtítulos)
+        y descomenta el bloque <video> de abajo.
+      -->
+      <video controls preload="metadata">
+        <source src="assets/media/presentacion.mp4" type="video/mp4">
+        Tu navegador no puede reproducir el video.
+        <a href="assets/media/presentacion.mp4">Descargar video</a>
+      </video>
+      <p><small>Video de presentación pendiente de agregar.</small></p>
+    </section>
+  </main>
+
+  <footer class="pie-sitio">
+    <p><strong>Conecta Cultura</strong></p>
+    <address>Contacto: <a href="mailto:hola@conectacultura.cl">hola@conectacultura.cl</a></address>
+    <p><small>Proyecto académico · Desarrollo FullStack II</small></p>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
